@@ -4,7 +4,7 @@ jenkins:
   nodeProperties:
     - toolLocation:
         name: "Docker"
-        home: "/usr/bin/docker"
+        home: "/usr/bin/docker/test"
   clouds:
     - docker:
         name: "docker"
